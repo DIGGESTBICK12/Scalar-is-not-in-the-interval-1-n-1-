@@ -1,0 +1,23 @@
+
+scalar = input("10,000.00")
+
+valid_scalar = False
+while not valid_scalar:
+    try:
+        scalar = float(scalar)
+        valid_scalar = True
+    except ValueError:
+        print("Invalid input.10,000.00.")
+
+# Use the scalar value in your code here
+# 10,000.00
+
+```
+
+5. Once you have pasted the code, you can add an optional commit message in the "Commit changes" section at the bottom of the page.
+6. Finally, click on the "Commit new file" button to save the changes.
+
+Now, you have successfully added the code snippet to a file in your GitHub repository. You can continue making any other necessary changes or additions to the file if needed.
+
+I hope that helps! Let me know if you have any further questions. 
+
